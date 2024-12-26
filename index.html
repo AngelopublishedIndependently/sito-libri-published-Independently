@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker Libri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/header.jpg" alt="MediaMan Header" height="77" width="284">
+        <h1>Tracker dei Libri</h1>
+    </header>
+
+    <main>
+        <input type="text" id="searchInput" placeholder="Cerca un libro..." />
+
+        <form id="addBookForm">
+            <input type="text" id="bookTitle" placeholder="Titolo del libro" required>
+            <input type="text" id="bookDate" placeholder="Data" required>
+            <input type="text" id="bookPrice" placeholder="Prezzo" required>
+            <input type="text" id="bookLink" placeholder="Link di vendita" required>
+            <input type="file" id="bookImage" accept="image/*" required>
+            <button type="submit">Aggiungi Libro</button>
+        </form>
+
+        <div id="bookContainer">
+            <!-- Sezione Libri -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

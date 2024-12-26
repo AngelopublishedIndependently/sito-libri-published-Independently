@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/random1.jpg'); /* Sfondo iniziale */
+    background-size: cover; /* Copri l'intera pagina */
+    background-repeat: no-repeat; /* Non ripetere l'immagine */
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#searchInput {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 8px;
+    margin: 0 5px 10px 0;
+    width: calc(20% - 12px);
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Colore verde più scuro */
+    transform: scale(1.05); /* Leggera ingranditura */
+}
+
+#bookContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+    vertical-align: top;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.detailsLink {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #2196F3; /* Blu */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.detailsLink:hover {
+    background-color: #1976D2; /* Blu scuro */
+}
+
+.deleteBtn {
+    background-color: #f44336; /* Rosso */
+}
+
+.deleteBtn:hover {
+    background-color: #e53935; /* Rosso scuro */
+}

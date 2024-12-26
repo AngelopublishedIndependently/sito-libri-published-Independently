@@ -1,0 +1,12 @@
+/tuo-progetto
+│
+├── index.html
+├── style.css
+├── scripts.js
+└── images
+    ├── header.jpg
+    ├── homepagenav_01.gif
+    ├── homepagenav_02.gif
+    ├── homepagenav_03.gif
+    ├── 02bg_10.gif
+    └── (altri file immagine)
